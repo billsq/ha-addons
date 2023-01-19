@@ -13,8 +13,10 @@ environment:
   SCRYPTED_VOLUME: "/data/scrypted_data"
 backup_exclude:
   - /server
-webui: "https://[HOST]:[PORT:10443]"
+ingress: true
+ingress_port: 11081
 stage: experimental
 advanced: true
 init: false
 hassio_role: default
+full_access: true
