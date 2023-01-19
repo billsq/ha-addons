@@ -14,7 +14,7 @@ environment:
 backup_exclude:
   - /server
 ingress: true
-ingress_port: 11081
+ingress_port: 10081
 stage: experimental
 advanced: true
 init: false
